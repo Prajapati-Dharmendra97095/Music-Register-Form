@@ -1,0 +1,88 @@
+/* General Style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/photo.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Container Style */
+  .container {
+    background-color: rgba(255, 255, 255, 0.85); /* Semi-transparent white */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    width: 100%;
+  }
+  
+  /* Header Style */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Form Group Style */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  /* Submit Button Style */
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .submit-button:hover {
+    background-color: #218838;
+  }
+  
+  /* Additional Styling */
+  .input-radio, .input-checkbox {
+    margin-right:10px;
+}
